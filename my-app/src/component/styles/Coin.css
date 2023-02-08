@@ -1,0 +1,41 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50px;
+
+}
+
+.searchinput {
+    min-width: 400px;
+    padding-right: 28px;
+    outline: none;
+
+}
+
+body {
+    background: linear-gradient(to right, #898297, #e7e9bb);
+}
+
+.greenPriceChange {
+    color: greenyellow;
+}
+
+.redPriceChange {
+    color: red;
+}
+
+@media (width < 491px) {
+    .searchinput {
+        min-width: 300px;
+    }
+
+    .marketcap {
+        display: none;
+    }
+}
+
+.cards:hover {
+    background-color: #f8dbaf;
+}
